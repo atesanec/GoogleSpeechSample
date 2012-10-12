@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59075C9B16276763007D16F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59075C9A16276763007D16F7 /* UIKit.framework */; };
+		59075C9D16276763007D16F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59075C9C16276763007D16F7 /* Foundation.framework */; };
+		59075C9F16276763007D16F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59075C9E16276763007D16F7 /* CoreGraphics.framework */; };
+		59075CA516276763007D16F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59075CA316276763007D16F7 /* InfoPlist.strings */; };
+		59075CA716276763007D16F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59075CA616276763007D16F7 /* main.m */; };
+		59075CAB16276763007D16F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59075CAA16276763007D16F7 /* AppDelegate.m */; };
+		59075CAD16276763007D16F7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 59075CAC16276763007D16F7 /* Default.png */; };
+		59075CAF16276763007D16F7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59075CAE16276763007D16F7 /* Default@2x.png */; };
+		59075CB116276763007D16F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59075CB016276763007D16F7 /* Default-568h@2x.png */; };
+		59075CB416276763007D16F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59075CB316276763007D16F7 /* ViewController.m */; };
+		59075CB716276763007D16F7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59075CB516276763007D16F7 /* ViewController.xib */; };
+		59075CC016276812007D16F7 /* GoogleSpeechClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 59075CBF16276812007D16F7 /* GoogleSpeechClient.m */; };
+		59C5A9FE162772F300B6B6AB /* FLACiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C5A9FD162772F300B6B6AB /* FLACiOS.framework */; };
+		59C5AA041627732400B6B6AB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 59C5AA001627732400B6B6AB /* LICENSE.txt */; };
+		59C5AA051627732400B6B6AB /* README in Resources */ = {isa = PBXBuildFile; fileRef = 59C5AA011627732400B6B6AB /* README */; };
+		59C5AA061627732400B6B6AB /* wav_to_flac.c in Sources */ = {isa = PBXBuildFile; fileRef = 59C5AA021627732400B6B6AB /* wav_to_flac.c */; };
+		59C5AA121627764D00B6B6AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C5AA111627764D00B6B6AB /* AVFoundation.framework */; };
+		59C5AA161627779700B6B6AB /* FileOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C5AA151627779700B6B6AB /* FileOperations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59075C9616276763007D16F7 /* GoogleSpeechSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSpeechSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59075C9A16276763007D16F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59075C9C16276763007D16F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59075C9E16276763007D16F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59075CA216276763007D16F7 /* GoogleSpeechSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleSpeechSample-Info.plist"; sourceTree = "<group>"; };
+		59075CA416276763007D16F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59075CA616276763007D16F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59075CA816276763007D16F7 /* GoogleSpeechSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleSpeechSample-Prefix.pch"; sourceTree = "<group>"; };
+		59075CA916276763007D16F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59075CAA16276763007D16F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59075CAC16276763007D16F7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		59075CAE16276763007D16F7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		59075CB016276763007D16F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		59075CB216276763007D16F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59075CB316276763007D16F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59075CB616276763007D16F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		59075CBE16276812007D16F7 /* GoogleSpeechClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleSpeechClient.h; sourceTree = "<group>"; };
+		59075CBF16276812007D16F7 /* GoogleSpeechClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleSpeechClient.m; sourceTree = "<group>"; };
+		59C5A9FD162772F300B6B6AB /* FLACiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLACiOS.framework; path = "FLAC/build/Release-iphoneos/FLACiOS.framework"; sourceTree = "<group>"; };
+		59C5AA001627732400B6B6AB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		59C5AA011627732400B6B6AB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		59C5AA021627732400B6B6AB /* wav_to_flac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wav_to_flac.c; sourceTree = "<group>"; };
+		59C5AA031627732400B6B6AB /* wav_to_flac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_to_flac.h; sourceTree = "<group>"; };
+		59C5AA111627764D00B6B6AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		59C5AA141627779700B6B6AB /* FileOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOperations.h; sourceTree = "<group>"; };
+		59C5AA151627779700B6B6AB /* FileOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOperations.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59075C9316276763007D16F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C5AA121627764D00B6B6AB /* AVFoundation.framework in Frameworks */,
+				59C5A9FE162772F300B6B6AB /* FLACiOS.framework in Frameworks */,
+				59075C9B16276763007D16F7 /* UIKit.framework in Frameworks */,
+				59075C9D16276763007D16F7 /* Foundation.framework in Frameworks */,
+				59075C9F16276763007D16F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59075C8B16276763007D16F7 = {
+			isa = PBXGroup;
+			children = (
+				59075CA016276763007D16F7 /* GoogleSpeechSample */,
+				59075C9916276763007D16F7 /* Frameworks */,
+				59075C9716276763007D16F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59075C9716276763007D16F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59075C9616276763007D16F7 /* GoogleSpeechSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59075C9916276763007D16F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59C5AA111627764D00B6B6AB /* AVFoundation.framework */,
+				59C5A9FD162772F300B6B6AB /* FLACiOS.framework */,
+				59075C9A16276763007D16F7 /* UIKit.framework */,
+				59075C9C16276763007D16F7 /* Foundation.framework */,
+				59075C9E16276763007D16F7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59075CA016276763007D16F7 /* GoogleSpeechSample */ = {
+			isa = PBXGroup;
+			children = (
+				59C5AA131627779700B6B6AB /* Helpers */,
+				59C5A9FF1627732400B6B6AB /* WavToFlac */,
+				59075CBD162767FA007D16F7 /* GoogleSpeech */,
+				59075CA916276763007D16F7 /* AppDelegate.h */,
+				59075CAA16276763007D16F7 /* AppDelegate.m */,
+				59075CB216276763007D16F7 /* ViewController.h */,
+				59075CB316276763007D16F7 /* ViewController.m */,
+				59075CB516276763007D16F7 /* ViewController.xib */,
+				59075CA116276763007D16F7 /* Supporting Files */,
+			);
+			path = GoogleSpeechSample;
+			sourceTree = "<group>";
+		};
+		59075CA116276763007D16F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59075CA216276763007D16F7 /* GoogleSpeechSample-Info.plist */,
+				59075CA316276763007D16F7 /* InfoPlist.strings */,
+				59075CA616276763007D16F7 /* main.m */,
+				59075CA816276763007D16F7 /* GoogleSpeechSample-Prefix.pch */,
+				59075CAC16276763007D16F7 /* Default.png */,
+				59075CAE16276763007D16F7 /* Default@2x.png */,
+				59075CB016276763007D16F7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59075CBD162767FA007D16F7 /* GoogleSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				59075CBE16276812007D16F7 /* GoogleSpeechClient.h */,
+				59075CBF16276812007D16F7 /* GoogleSpeechClient.m */,
+			);
+			path = GoogleSpeech;
+			sourceTree = SOURCE_ROOT;
+		};
+		59C5A9FF1627732400B6B6AB /* WavToFlac */ = {
+			isa = PBXGroup;
+			children = (
+				59C5AA001627732400B6B6AB /* LICENSE.txt */,
+				59C5AA011627732400B6B6AB /* README */,
+				59C5AA021627732400B6B6AB /* wav_to_flac.c */,
+				59C5AA031627732400B6B6AB /* wav_to_flac.h */,
+			);
+			path = WavToFlac;
+			sourceTree = SOURCE_ROOT;
+		};
+		59C5AA131627779700B6B6AB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				59C5AA141627779700B6B6AB /* FileOperations.h */,
+				59C5AA151627779700B6B6AB /* FileOperations.m */,
+			);
+			path = Helpers;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59075C9516276763007D16F7 /* GoogleSpeechSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59075CBA16276763007D16F7 /* Build configuration list for PBXNativeTarget "GoogleSpeechSample" */;
+			buildPhases = (
+				59075C9216276763007D16F7 /* Sources */,
+				59075C9316276763007D16F7 /* Frameworks */,
+				59075C9416276763007D16F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleSpeechSample;
+			productName = GoogleSpeechSample;
+			productReference = 59075C9616276763007D16F7 /* GoogleSpeechSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59075C8D16276763007D16F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Victor Ilinskiy";
+			};
+			buildConfigurationList = 59075C9016276763007D16F7 /* Build configuration list for PBXProject "GoogleSpeechSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59075C8B16276763007D16F7;
+			productRefGroup = 59075C9716276763007D16F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59075C9516276763007D16F7 /* GoogleSpeechSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59075C9416276763007D16F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59075CA516276763007D16F7 /* InfoPlist.strings in Resources */,
+				59075CAD16276763007D16F7 /* Default.png in Resources */,
+				59075CAF16276763007D16F7 /* Default@2x.png in Resources */,
+				59075CB116276763007D16F7 /* Default-568h@2x.png in Resources */,
+				59075CB716276763007D16F7 /* ViewController.xib in Resources */,
+				59C5AA041627732400B6B6AB /* LICENSE.txt in Resources */,
+				59C5AA051627732400B6B6AB /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59075C9216276763007D16F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59075CA716276763007D16F7 /* main.m in Sources */,
+				59075CAB16276763007D16F7 /* AppDelegate.m in Sources */,
+				59075CB416276763007D16F7 /* ViewController.m in Sources */,
+				59075CC016276812007D16F7 /* GoogleSpeechClient.m in Sources */,
+				59C5AA061627732400B6B6AB /* wav_to_flac.c in Sources */,
+				59C5AA161627779700B6B6AB /* FileOperations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59075CA316276763007D16F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59075CA416276763007D16F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59075CB516276763007D16F7 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59075CB616276763007D16F7 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59075CB816276763007D16F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59075CB916276763007D16F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59075CBB16276763007D16F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/FLAC/build/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleSpeechSample/GoogleSpeechSample-Prefix.pch";
+				INFOPLIST_FILE = "GoogleSpeechSample/GoogleSpeechSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59075CBC16276763007D16F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/FLAC/build/Release-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleSpeechSample/GoogleSpeechSample-Prefix.pch";
+				INFOPLIST_FILE = "GoogleSpeechSample/GoogleSpeechSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59075C9016276763007D16F7 /* Build configuration list for PBXProject "GoogleSpeechSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59075CB816276763007D16F7 /* Debug */,
+				59075CB916276763007D16F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59075CBA16276763007D16F7 /* Build configuration list for PBXNativeTarget "GoogleSpeechSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59075CBB16276763007D16F7 /* Debug */,
+				59075CBC16276763007D16F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59075C8D16276763007D16F7 /* Project object */;
+}
